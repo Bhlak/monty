@@ -8,7 +8,11 @@
 	{			      \
 		{"push", push},       \
 		{"pall", pall},	      \
-	        {			\
+		("pint", pint),       \
+		{"pop", pop},		\
+		{"swap", swap},		\
+		{"nop", nop},		\
+		{			\
 			NULL, NULL      \
 		}			\
 	}
